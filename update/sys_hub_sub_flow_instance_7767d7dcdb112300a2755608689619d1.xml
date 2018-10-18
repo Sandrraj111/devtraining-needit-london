@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Find and Close Overdue tasks">50e1d3d8db112300a275560868961965</flow>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <parent_ui_id/>
+        <subflow display_value="Handle Overdue NeedIt Tasks">f29f8398db112300a2755608689619d7</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 08:14:22</sys_created_on>
+        <sys_id>7767d7dcdb112300a2755608689619d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_7767d7dcdb112300a2755608689619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-18 08:14:22</sys_updated_on>
+        <ui_id>6a02dca5-49f0-48fe-8125-1339cae6e2d2</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7767d7dcdb112300a2755608689619d1"/>
+    <sys_element_mapping action="delete_multiple" query="id=7767d7dcdb112300a2755608689619d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>needit_task</field>
+        <id>7767d7dcdb112300a2755608689619d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 08:14:22</sys_created_on>
+        <sys_id>ff671bdcdb112300a275560868961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-18 08:14:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_f29f8398db112300a2755608689619d7</table>
+        <value>{{e128fceb-ddb3-4a1c-a825-892b40255f94.Record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reason</field>
+        <id>7767d7dcdb112300a2755608689619d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 08:14:22</sys_created_on>
+        <sys_id>3f671bdcdb112300a275560868961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-18 08:14:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_f29f8398db112300a2755608689619d7</table>
+        <value>{{e128fceb-ddb3-4a1c-a825-892b40255f94.Record.number}}was automatically closed because its due date is {{e128fceb-ddb3-4a1c-a825-892b40255f94.Record.due_date}}was older than autoCloseOverdue setting of {{0312aba0-fc61-4a6f-9ba2-5f84bcf515ee.property_value}}</value>
+    </sys_element_mapping>
+</record_update>
